@@ -1,0 +1,32 @@
+{
+    "name": "SonarCar-202508 - 複製",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "sensors": "github:lioujj/pxt-sensors#9abf1bd5231879b82c12f091844ce2f80cc7d2cb",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v3.0.17",
+        "tag": "v3.0.17",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/414403fca5144b77b5c4944174a1a4f2144af5fe",
+        "target": "8.0.18",
+        "pxt": "6.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
