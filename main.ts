@@ -128,7 +128,7 @@ control.inBackground(function () {
         if (mode == 1) {
             forward()
             if (triggered > 0 && triggered < 30) {
-                basic.showIcon(IconNames.Scissors)
+                basic.showIcon(IconNames.EighthNote)
                 backwardToTheLeft()
                 basic.pause(1000)
             }
